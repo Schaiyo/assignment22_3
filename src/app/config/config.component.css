@@ -1,0 +1,23 @@
+.configName {
+    color: white;
+}
+
+.remark {
+    font-style: italic;
+}
+
+.mainConfig {
+    padding: 14px 16px;
+}
+
+.mainConfig div {
+    padding: 3px 0;
+}
+
+input {
+    width: 50%;
+}
+
+select {
+    width: 40%;
+}

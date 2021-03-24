@@ -1,0 +1,28 @@
+<div class="mainConfig" *ngIf="[configName] == 'Auto Save '">
+    <div>
+        <span>{{ groupName }}</span>
+        <span class="configName">{{ configName }}</span>
+        <span class="remark">{{ remark }}</span>
+    </div>
+    <div>
+        <span>{{ detail}}</span>
+
+    </div>
+    <div>
+        <select><option *ngFor="let list of listValue" value="list">{{ list }}</option></select>
+    </div>
+</div>
+<div class="mainConfig">
+    <div>
+        <span>{{ groupName }}</span>
+        <span class="configName">{{ configName }}</span>
+        <span class="remark">{{ remark }}</span>
+    </div>
+    <div>
+        <span>{{ detail}}</span>
+
+    </div>
+    <div>
+        <input type="text" value="{{ value }}">
+    </div>
+</div>

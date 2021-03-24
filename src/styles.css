@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.css';
+@import '~@circlon/angular-tree-component/css/angular-tree-component.css';
+
+body {
+    margin:0;
+    background-color: rgb(31, 30, 30);
+    color: rgb(154, 154, 154);
+    font-family: Menlo, Monaco, 'Courier New', monospace;
+    font-size: 12px;
+}
